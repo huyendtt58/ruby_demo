@@ -13,6 +13,7 @@ end
 group :production do
   gem 'pg'
   gem 'rails_12factor'
+  gem 'puma',           '2.11.1'
 end
 #Use bootstrap fpr stylesheet
 gem 'bootstrap-sass',       '3.2.0.0'
